@@ -2,6 +2,8 @@
 A vintage-inspired web application that lets you create and manage custom mixtapes using YouTube videos. Built with PHP, MySQL, and JavaScript with a beautiful retro aesthetic.
 
 
+
+
  Features
 
 User Authentication: Secure login and registration system
@@ -19,6 +21,8 @@ Theme Switcher: Toggle between light and dark modes
 Track Navigation: Previous/Next track controls with progress tracking
 
 
+
+
  Installation Guide
 Prerequisites
 
@@ -27,10 +31,14 @@ Web browser (Chrome, Firefox, Safari, etc.)
 Internet connection (for YouTube API)
 
 
+
+
 Step 1: Download the Project
 
 Download the project folder from GitHub
 Extract the files if downloaded as a ZIP
+
+
 
 
 Step 2: Install XAMPP
@@ -40,12 +48,16 @@ Install XAMPP on your system
 Follow the installation wizard instructions
 
 
+
+
 Step 3: Setup Project Files
 
 Open XAMPP installation directory
 Navigate to xamppfiles folder
 Find the htdocs directory
 Place your downloaded project folder inside htdocs
+
+
 
 
 Step 4: Database Setup
@@ -60,6 +72,8 @@ Click "Go" to create the required tables
 
 
 
+
+
 Step 5: Start the Application
 
 Open XAMPP Control Panel
@@ -68,11 +82,15 @@ Click on Manage Servers tab
 Start both:
 
 MySQL Database
+
 Apache Web Server
 
 
 Open your web browser
+
 Navigate to: http://localhost/Mixtape9/frontend/Mixtape.html
+
+
 
 
 
@@ -95,6 +113,9 @@ Use the "+ Add Another Track" button for multiple songs
 
 Create: Click "Create My Mixtape" to save your playlist
 
+
+
+
 Managing Your Music
 
 Previous Mixtapes: Click "Previous Playlists" to view all your saved mixtapes
@@ -102,6 +123,9 @@ Previous Mixtapes: Click "Previous Playlists" to view all your saved mixtapes
 Load Mixtape: Click "Load" on any previous mixtape to start playing
 
 Remove Tracks: Use the remove button (X) to delete tracks while creating
+
+
+
 
 Music Player Controls
 
@@ -113,6 +137,10 @@ Progress Bar: Visual representation of current song progress
 
 Track Info: Current track number and song title displayed
 
+
+
+
+
 Additional Features
 
 Theme Switcher: Toggle between light and dark modes (top-right corner)
@@ -120,6 +148,10 @@ Theme Switcher: Toggle between light and dark modes (top-right corner)
 Logout: Sign out of your account (top-left corner)
 
 Create New: Start a new mixtape from the player view
+
+
+
+
 
  Technical Details
 Database Structure
@@ -131,6 +163,9 @@ songs: YouTube video metadata and details
 playlists: User-created mixtapes
 
 playlist_songs: Track relationships and ordering
+
+
+
 
 
 API Integration
