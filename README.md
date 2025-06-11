@@ -4,7 +4,7 @@ A vintage-inspired web application that lets you create and manage custom mixtap
 
  Features
 
--User Authentication: Secure login and registration system
+User Authentication: Secure login and registration system
 
 Mixtape Creation: Add up to 10 YouTube tracks per mixtape
 
@@ -81,6 +81,7 @@ Navigate to: http://localhost/Mixtape9/frontend/Mixtape.html
 Getting Started
 
 Create an Account: Click "Sign up" and fill in your details
+
 Login: Use your credentials to access your mixtape dashboard
 
 Creating a Mixtape
@@ -97,28 +98,38 @@ Create: Click "Create My Mixtape" to save your playlist
 Managing Your Music
 
 Previous Mixtapes: Click "Previous Playlists" to view all your saved mixtapes
+
 Load Mixtape: Click "Load" on any previous mixtape to start playing
+
 Remove Tracks: Use the remove button (X) to delete tracks while creating
 
 Music Player Controls
 
 Play/Pause: Click the play button to control playback
+
 Track Navigation: Use previous/next buttons to change songs
+
 Progress Bar: Visual representation of current song progress
+
 Track Info: Current track number and song title displayed
 
 Additional Features
 
 Theme Switcher: Toggle between light and dark modes (top-right corner)
+
 Logout: Sign out of your account (top-left corner)
+
 Create New: Start a new mixtape from the player view
 
  Technical Details
 Database Structure
 
 users: User accounts and authentication
+
 songs: YouTube video metadata and details
+
 playlists: User-created mixtapes
+
 playlist_songs: Track relationships and ordering
 
 
