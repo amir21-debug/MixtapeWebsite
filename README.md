@@ -25,12 +25,15 @@ Track Navigation: Previous/Next track controls with progress tracking
 Prerequisites
 
 XAMPP (Apache, MySQL, PHP)
+
 Web browser (Chrome, Firefox, Safari, etc.)
+
 Internet connection (for YouTube API)
 
 Step 1: Download the Project
 
 Download the project folder from GitHub
+
 Extract the files if downloaded as a ZIP
 
 
@@ -38,7 +41,9 @@ Extract the files if downloaded as a ZIP
 Step 2: Install XAMPP
 
 Download XAMPP from https://www.apachefriends.org/
+
 Install XAMPP on your system
+
 Follow the installation wizard instructions
 
 
@@ -46,8 +51,11 @@ Follow the installation wizard instructions
 Step 3: Setup Project Files
 
 Open XAMPP installation directory
+
 Navigate to xamppfiles folder
+
 Find the htdocs directory
+
 Place your downloaded project folder inside htdocs
 
 
@@ -55,11 +63,17 @@ Place your downloaded project folder inside htdocs
 Step 4: Database Setup
 
 Open XAMPP Control Panel
+
 Start Apache Web Server and MySQL Database
+
 Open your web browser and go to: http://localhost/phpmyadmin
+
 Create a new database named: mixtape_db
+
 Select the database and go to the "Import" tab
+
 Upload the createTables.sql file from your project folder
+
 Click "Go" to create the required tables
 
 
@@ -67,7 +81,9 @@ Click "Go" to create the required tables
 Step 5: Start the Application
 
 Open XAMPP Control Panel
+
 Navigate to Manager-OSX (on Mac) or use XAMPP Control Panel (on Windows)
+
 Click on Manage Servers tab
 Start both:
 
@@ -139,8 +155,11 @@ Create New: Start a new mixtape from the player view
 Database Structure
 
 users: User accounts and authentication
+
 songs: YouTube video metadata and details
+
 playlists: User-created mixtapes
+
 playlist_songs: Track relationships and ordering
 
 
@@ -148,5 +167,7 @@ playlist_songs: Track relationships and ordering
 API Integration
 
 Uses YouTube Data API v3 for video metadata
+
 Automatic duration calculation and title extraction
+
 Fallback handling for unavailable videos
