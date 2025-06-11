@@ -4,7 +4,7 @@ A vintage-inspired web application that lets you create and manage custom mixtap
 
  Features
 
-User Authentication: Secure login and registration system
+-User Authentication: Secure login and registration system
 
 Mixtape Creation: Add up to 10 YouTube tracks per mixtape
 
