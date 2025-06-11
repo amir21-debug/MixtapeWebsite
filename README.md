@@ -88,7 +88,7 @@ Click on Manage Servers tab
 
 Start both:
 
-MySQL Database
+MySQL Database, and 
 Apache Web Server
 
 
