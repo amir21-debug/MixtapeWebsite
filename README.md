@@ -1,74 +1,123 @@
-Weather App
-
-A desktop weather application built with C# and .NET that provides real-time weather forecasts, alerts, and radar images using the **OpenWeatherMap API** and the **National Weather Service (NWS) API**.
+ Mixtape - Create Your Perfect Playlist
+A vintage-inspired web application that lets you create and manage custom mixtapes using YouTube videos. Built with PHP, MySQL, and vanilla JavaScript with a beautiful retro aesthetic.
 
 
  Features
 
-- Current Weather:
-  - Displays temperature, humidity, wind speed, and weather conditions.
-  - Shows sunrise and sunset times.
-  - Includes a weather icon for visual representation.
+User Authentication: Secure login and registration system
+Mixtape Creation: Add up to 10 YouTube tracks per mixtape
+Music Playback: Built-in YouTube player with full controls
+Playlist Management: View and manage all your previous mixtapes
+Responsive Design: Vintage radio-inspired interface
+Theme Switcher: Toggle between light and dark modes
+Track Navigation: Previous/Next track controls with progress tracking
 
-- Hourly Forecast:
-  - Displays weather conditions for the next 24 hours.
-  - Shows temperature, short forecast, and weather icons.
 
-- Daily Forecast:
-  - Provides a 7-day forecast with high and low temperatures.
-  - Displays weather conditions and icons for each day.
+ Installation Guide
+Prerequisites
 
-- Weather Alerts:
-  - Fetches and displays active weather alerts for the selected location.
-  - Shows a summary of alerts and allows users to view detailed information.
+XAMPP (Apache, MySQL, PHP)
+Web browser (Chrome, Firefox, Safari, etc.)
+Internet connection (for YouTube API)
 
-- Radar Images:
-  - Displays real-time radar images for the selected location.
-  - Allows users to enlarge the radar image for better visibility.
 
-- Temperature Unit Conversion**:
-  - Supports switching between Fahrenheit and Celsius.
+Step 1: Download the Project
 
-- Dynamic Background:
-  - Changes the background gradient based on the time of day (daytime or nighttime).
+Download the project folder from GitHub
+Extract the files if downloaded as a ZIP
 
-------
 
- How to Use the System
- 
- 1. Navigate to the Right Folder
-    - Open "Weather-App-master2".
-      
-2. Launch the Application:
-   - Open the project in Visual Studio and run it 
+Step 2: Install XAMPP
 
-3. Enter Location:
-   - In the application window, enter a city name in the "City" text box.
-   - Select a state from the dropdown menu.
+Download XAMPP from https://www.apachefriends.org/
+Install XAMPP on your system
+Follow the installation wizard instructions
 
-4. Fetch Weather Data:
-   - Click the "Search" button to fetch and display weather data for the selected location.
 
-5. View Weather Information:
-   - The current weather, including temperature, humidity, wind speed, precipitation, and weather conditions, will be displayed.
-   - The hourly forecast for the next 24 hours will be shown in a horizontal scrollable panel.
-   - The 7-day daily forecast will be displayed below the hourly forecast.
+Step 3: Setup Project Files
 
-6. View Weather Alerts:
-   - If there are active weather alerts for the selected location, a message box will pop up with a summary of the alerts.
-   - Click "OK" to view detailed information about the first alert in a new window, otherwise click "cancel" to exit.
+Open XAMPP installation directory
+Navigate to xamppfiles folder
+Find the htdocs directory
+Place your downloaded project folder inside htdocs
 
-7. View Radar Images:
-   - A radar image for the selected location will be displayed above the hourly forecast.
-   - Click the "View Radar" button to view the radar image in a larger window.
 
-8. Switch Temperature Units:
-   - Use the "Celsius" and "Fahrenheit" buttons, on the top right, to switch between temperature units.
+Step 4: Database Setup
 
-------
-   Prerequisites
-   
-1.API Keys
- In the case the current API key in the application reached the max limit 
-	-Obtain an API key from [OpenWeatherMap] by signing up and the free API key will be on your account page or be sent to you via email. Here is the sign up link: (https://openweathermap.org/home/sign_up).
-   - Replace the placeholder API key in the `WeatherService.cs` file with your new API key.
+Open XAMPP Control Panel
+Start Apache Web Server and MySQL Database
+Open your web browser and go to: http://localhost/phpmyadmin
+Create a new database named: mixtape_db
+Select the database and go to the "Import" tab
+Upload the createTables.sql file from your project folder
+Click "Go" to create the required tables
+
+
+
+Step 5: Start the Application
+
+Open XAMPP Control Panel
+Navigate to Manager-OSX (on Mac) or use XAMPP Control Panel (on Windows)
+Click on Manage Servers tab
+Start both:
+
+MySQL Database
+Apache Web Server
+
+
+Open your web browser
+Navigate to: http://localhost/Mixtape9/frontend/Mixtape.html
+
+
+
+
+ How to Use
+Getting Started
+
+Create an Account: Click "Sign up" and fill in your details
+Login: Use your credentials to access your mixtape dashboard
+
+Creating a Mixtape
+
+Enter Mixtape Title: Give your mixtape a memorable name
+Add YouTube Links:
+
+Paste YouTube video URLs (minimum 1, maximum 10)
+Use the "+ Add Another Track" button for multiple songs
+
+
+Create: Click "Create My Mixtape" to save your playlist
+
+Managing Your Music
+
+Previous Mixtapes: Click "Previous Playlists" to view all your saved mixtapes
+Load Mixtape: Click "Load" on any previous mixtape to start playing
+Remove Tracks: Use the remove button (X) to delete tracks while creating
+
+Music Player Controls
+
+Play/Pause: Click the play button to control playback
+Track Navigation: Use previous/next buttons to change songs
+Progress Bar: Visual representation of current song progress
+Track Info: Current track number and song title displayed
+
+Additional Features
+
+Theme Switcher: Toggle between light and dark modes (top-right corner)
+Logout: Sign out of your account (top-left corner)
+Create New: Start a new mixtape from the player view
+
+ Technical Details
+Database Structure
+
+users: User accounts and authentication
+songs: YouTube video metadata and details
+playlists: User-created mixtapes
+playlist_songs: Track relationships and ordering
+
+
+API Integration
+
+Uses YouTube Data API v3 for video metadata
+Automatic duration calculation and title extraction
+Fallback handling for unavailable videos
