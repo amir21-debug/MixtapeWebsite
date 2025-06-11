@@ -2,14 +2,21 @@
 A vintage-inspired web application that lets you create and manage custom mixtapes using YouTube videos. Built with PHP, MySQL, and vanilla JavaScript with a beautiful retro aesthetic.
 
 
+
  Features
 
 User Authentication: Secure login and registration system
+
 Mixtape Creation: Add up to 10 YouTube tracks per mixtape
+
 Music Playback: Built-in YouTube player with full controls
+
 Playlist Management: View and manage all your previous mixtapes
+
 Responsive Design: Vintage radio-inspired interface
+
 Theme Switcher: Toggle between light and dark modes
+
 Track Navigation: Previous/Next track controls with progress tracking
 
 
@@ -20,8 +27,6 @@ Prerequisites
 XAMPP (Apache, MySQL, PHP)
 Web browser (Chrome, Firefox, Safari, etc.)
 Internet connection (for YouTube API)
-
-
 
 Step 1: Download the Project
 
@@ -72,6 +77,7 @@ Apache Web Server
 
 Open your web browser
 Navigate to: http://localhost/Mixtape9/frontend/Mixtape.html
+
 
 
 
