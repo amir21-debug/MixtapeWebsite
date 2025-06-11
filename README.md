@@ -85,6 +85,7 @@ Open XAMPP Control Panel
 Navigate to Manager-OSX (on Mac) or use XAMPP Control Panel (on Windows)
 
 Click on Manage Servers tab
+
 Start both:
 
 MySQL Database
