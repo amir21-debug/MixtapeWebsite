@@ -5,11 +5,17 @@ A vintage-inspired web application that lets you create and manage custom mixtap
  Features
 
 User Authentication: Secure login and registration system
+
 Mixtape Creation: Add up to 10 YouTube tracks per mixtape
+
 Music Playback: Built-in YouTube player with full controls
+
 Playlist Management: View and manage all your previous mixtapes
+
 Responsive Design: Vintage radio-inspired interface
+
 Theme Switcher: Toggle between light and dark modes
+
 Track Navigation: Previous/Next track controls with progress tracking
 
 
