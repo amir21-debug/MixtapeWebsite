@@ -149,26 +149,3 @@ Theme Switcher: Toggle between light and dark modes (top-right corner)
 Logout: Sign out of your account (top-left corner)
 
 Create New: Start a new mixtape from the player view
-
-
-
- Technical Details
-Database Structure
-
-users: User accounts and authentication
-
-songs: YouTube video metadata and details
-
-playlists: User-created mixtapes
-
-playlist_songs: Track relationships and ordering
-
-
-
-API Integration
-
-Uses YouTube Data API v3 for video metadata
-
-Automatic duration calculation and title extraction
-
-Fallback handling for unavailable videos
