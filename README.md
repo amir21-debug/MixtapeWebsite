@@ -30,7 +30,7 @@ Web browser (Chrome, Firefox, Safari, etc.)
 
 Internet connection (for YouTube API)
 
-Step 1: Download the Project
+###Step 1: Download the Project
 
 Download the project folder from GitHub
 
@@ -38,7 +38,7 @@ Extract the files if downloaded as a ZIP
 
 
 
-Step 2: Install XAMPP
+###Step 2: Install XAMPP
 
 Download XAMPP from https://www.apachefriends.org/
 
@@ -48,7 +48,7 @@ Follow the installation wizard instructions
 
 
 
-Step 3: Setup Project Files
+###Step 3: Setup Project Files
 
 Open XAMPP installation directory
 
@@ -60,7 +60,7 @@ Place your downloaded project folder inside htdocs
 
 
 
-Step 4: Database Setup
+###Step 4: Database Setup
 
 Open XAMPP Control Panel
 
@@ -78,7 +78,7 @@ Click "Go" to create the required tables
 
 
 
-Step 5: Start the Application
+###Step 5: Start the Application
 
 Open XAMPP Control Panel
 
@@ -98,7 +98,7 @@ Navigate to: http://localhost/Mixtape9/frontend/Mixtape.html
 
 
 
-### How to Use
+## How to Use
 Getting Started
 
 Create an Account: Click "Sign up" and fill in your details
@@ -107,7 +107,7 @@ Login: Use your credentials to access your mixtape dashboard
 
 
 
-###Creating a Mixtape
+##Creating a Mixtape
 
 Enter Mixtape Title: Give your mixtape a memorable name
 Add YouTube Links:
@@ -120,7 +120,7 @@ Create: Click "Create My Mixtape" to save your playlist
 
 
 
-###Managing Your Music
+##Managing Your Music
 
 Previous Mixtapes: Click "Previous Playlists" to view all your saved mixtapes
 
@@ -130,7 +130,7 @@ Remove Tracks: Use the remove button (X) to delete tracks while creating
 
 
 
-####Music Player Controls
+##Music Player Controls
 
 Play/Pause: Click the play button to control playback
 
@@ -142,7 +142,7 @@ Track Info: Current track number and song title displayed
 
 
 
-####Additional Features
+##Additional Features
 
 Theme Switcher: Toggle between light and dark modes (top-right corner)
 
