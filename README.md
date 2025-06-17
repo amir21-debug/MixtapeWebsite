@@ -1,4 +1,4 @@
- Mixtape - Create Your Perfect Playlist
+# Mixtape - Create Your Perfect Playlist
 A vintage-inspired web application that lets you create and manage custom mixtapes using YouTube videos. Built with PHP, MySQL, and vanilla JavaScript with a beautiful retro aesthetic.
 
 
