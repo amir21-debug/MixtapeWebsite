@@ -3,7 +3,7 @@ A vintage-inspired web application that lets you create and manage custom mixtap
 
 
 
- Features
+## Features
 
 User Authentication: Secure login and registration system
 
@@ -21,7 +21,7 @@ Track Navigation: Previous/Next track controls with progress tracking
 
 
 
- Installation Guide
+ ##Installation Guide
 Prerequisites
 
 XAMPP (Apache, MySQL, PHP)
@@ -98,7 +98,7 @@ Navigate to: http://localhost/Mixtape9/frontend/Mixtape.html
 
 
 
- How to Use
+### How to Use
 Getting Started
 
 Create an Account: Click "Sign up" and fill in your details
@@ -107,7 +107,7 @@ Login: Use your credentials to access your mixtape dashboard
 
 
 
-Creating a Mixtape
+###Creating a Mixtape
 
 Enter Mixtape Title: Give your mixtape a memorable name
 Add YouTube Links:
@@ -120,7 +120,7 @@ Create: Click "Create My Mixtape" to save your playlist
 
 
 
-Managing Your Music
+###Managing Your Music
 
 Previous Mixtapes: Click "Previous Playlists" to view all your saved mixtapes
 
@@ -130,7 +130,7 @@ Remove Tracks: Use the remove button (X) to delete tracks while creating
 
 
 
-Music Player Controls
+####Music Player Controls
 
 Play/Pause: Click the play button to control playback
 
@@ -142,7 +142,7 @@ Track Info: Current track number and song title displayed
 
 
 
-Additional Features
+####Additional Features
 
 Theme Switcher: Toggle between light and dark modes (top-right corner)
 
