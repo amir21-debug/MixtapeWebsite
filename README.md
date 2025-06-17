@@ -1,151 +1,88 @@
-# Mixtape - Create Your Perfect Playlist
-A vintage-inspired web application that lets you create and manage custom mixtapes using YouTube videos. Built with PHP, MySQL, and vanilla JavaScript with a beautiful retro aesthetic.
+# Mixtape – Create Your Perfect Playlist
 
-
+This Mixtape website is a vintage-inspired web application that allows users to create and manage custom mixtapes using YouTube videos. Built with PHP, MySQL, HTML, CSS, and JavaScript, it features a retro design and modern functionality for music lovers who want to curate and relive their favorite playlists.
 
 ## Features
 
-User Authentication: Secure login and registration system
+- User Authentication: Secure registration and login system  
+- Mixtape Creation: Add up to 10 YouTube tracks per mixtape  
+- Music Playback: Embedded YouTube player with full controls  
+- Playlist Management: View and load previously saved mixtapes  
+- Responsive Design: Styled with a vintage radio-themed interface  
+- Theme Switcher: Toggle between light and dark modes  
+- Track Navigation: Next/Previous track controls with progress tracking  
 
-Mixtape Creation: Add up to 10 YouTube tracks per mixtape
+## Installation Guide
 
-Music Playback: Built-in YouTube player with full controls
+### Prerequisites
 
-Playlist Management: View and manage all your previous mixtapes
+- [XAMPP](https://www.apachefriends.org/) (Apache, MySQL, PHP)  
+- A modern web browser (Chrome, Firefox, Safari, etc.)  
+- Internet connection (for YouTube API support)  
 
-Responsive Design: Vintage radio-inspired interface
+### Step 1: Download the Project
 
-Theme Switcher: Toggle between light and dark modes
+- Download the project folder from GitHub  
+- Extract the files if downloaded as a ZIP  
 
-Track Navigation: Previous/Next track controls with progress tracking
+### Step 2: Install XAMPP
 
+- Download and install XAMPP from the official website  
+- Follow the installation wizard based on your OS  
 
+### Step 3: Setup Project Files
 
- ##Installation Guide
-Prerequisites
+- Open your XAMPP installation directory  
+- Navigate to the `htdocs` folder  
+- Move your downloaded **Mixtape** project folder into `htdocs`  
 
-XAMPP (Apache, MySQL, PHP)
+### Step 4: Database Setup
 
-Web browser (Chrome, Firefox, Safari, etc.)
+- Open the XAMPP Control Panel  
+- Start Apache and MySQL services  
+- In your browser, go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)  
+- Create a new database called: `mixtape_db`  
+- Select the database and go to the Import tab  
+- Upload the `createTables.sql` file from your project folder  
+- Click Go to complete the import  
 
-Internet connection (for YouTube API)
+### Step 5: Start the Application
 
-###Step 1: Download the Project
-
-Download the project folder from GitHub
-
-Extract the files if downloaded as a ZIP
-
-
-
-###Step 2: Install XAMPP
-
-Download XAMPP from https://www.apachefriends.org/
-
-Install XAMPP on your system
-
-Follow the installation wizard instructions
-
-
-
-###Step 3: Setup Project Files
-
-Open XAMPP installation directory
-
-Navigate to xamppfiles folder
-
-Find the htdocs directory
-
-Place your downloaded project folder inside htdocs
-
-
-
-###Step 4: Database Setup
-
-Open XAMPP Control Panel
-
-Start Apache Web Server and MySQL Database
-
-Open your web browser and go to: http://localhost/phpmyadmin
-
-Create a new database named: mixtape_db
-
-Select the database and go to the "Import" tab
-
-Upload the createTables.sql file from your project folder
-
-Click "Go" to create the required tables
-
-
-
-###Step 5: Start the Application
-
-Open XAMPP Control Panel
-
-Navigate to Manager-OSX (on Mac) or use XAMPP Control Panel (on Windows)
-
-Click on Manage Servers tab
-
-Start both:
-
-MySQL Database, and 
-Apache Web Server
-
-
-Open your web browser
-Navigate to: http://localhost/Mixtape9/frontend/Mixtape.html
-
-
-
+- Make sure Apache and MySQL are running in XAMPP  
+- Open your web browser  
+- Navigate to: `http://localhost/Mixtape9/frontend/Mixtape.html`  
 
 ## How to Use
-Getting Started
 
-Create an Account: Click "Sign up" and fill in your details
+### Getting Started
 
-Login: Use your credentials to access your mixtape dashboard
+- Create an Account: Click Sign up and enter your information  
+- Login: Use your credentials to access your mixtape dashboard  
 
+### Creating a Mixtape
 
+- Enter Title: Give your mixtape a unique and memorable name  
+- Add Tracks:  
+  - Paste YouTube video URLs (1–10 max)  
+  - Use the + Add Another Track button for multiple entries  
+- Create: Click Create My Mixtape to save your playlist  
 
-##Creating a Mixtape
+### Managing Your Music
 
-Enter Mixtape Title: Give your mixtape a memorable name
-Add YouTube Links:
+- Previous Mixtapes: View your saved playlists  
+- Load Mixtape: Click Load to play any previous mixtape  
+- Remove Tracks: Use the X icon to delete tracks while editing  
 
-Paste YouTube video URLs (minimum 1, maximum 10)
-Use the "+ Add Another Track" button for multiple songs
+### Music Player Controls
 
+- Play/Pause: Toggle playback with the play button  
+- Next/Previous: Navigate tracks using arrow controls  
+- Progress Bar: Displays current song progress  
+- Track Info: Shows current track number and title  
 
-Create: Click "Create My Mixtape" to save your playlist
+## Additional Features
 
+- Theme Switcher: Toggle between light and dark themes (top-right)  
+- Logout: Sign out of your account (top-left)  
+- Create New: Start a new mixtape anytime from the player view  
 
-
-##Managing Your Music
-
-Previous Mixtapes: Click "Previous Playlists" to view all your saved mixtapes
-
-Load Mixtape: Click "Load" on any previous mixtape to start playing
-
-Remove Tracks: Use the remove button (X) to delete tracks while creating
-
-
-
-##Music Player Controls
-
-Play/Pause: Click the play button to control playback
-
-Track Navigation: Use previous/next buttons to change songs
-
-Progress Bar: Visual representation of current song progress
-
-Track Info: Current track number and song title displayed
-
-
-
-##Additional Features
-
-Theme Switcher: Toggle between light and dark modes (top-right corner)
-
-Logout: Sign out of your account (top-left corner)
-
-Create New: Start a new mixtape from the player view
